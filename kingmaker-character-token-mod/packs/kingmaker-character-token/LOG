@@ -1,0 +1,28 @@
+2023/07/28-23:50:36.804 6760 Recovering log #13
+2023/07/28-23:50:36.830 6760 Level-0 table #15: started
+2023/07/28-23:50:36.885 6760 Level-0 table #15: 3739328 bytes OK
+2023/07/28-23:50:36.895 6760 Delete type=0 #13
+2023/07/28-23:50:36.895 6760 Delete type=3 #12
+2023/07/28-23:51:39.633 512c Level-0 table #18: started
+2023/07/28-23:51:39.633 512c Level-0 table #18: 0 bytes OK
+2023/07/28-23:51:39.635 512c Delete type=0 #16
+2023/07/28-23:51:39.636 512c Manual compaction at level-0 from '!actors!0EO5vP2gCliAxLrF' @ 72057594037927935 : 1 .. '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 0 : 0; will stop at '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 8694 : 1
+2023/07/28-23:51:39.636 512c Compacting 1@0 + 0@1 files
+2023/07/28-23:51:39.667 512c Generated table #19@0: 2634 keys, 2129547 bytes
+2023/07/28-23:51:39.697 512c Generated table #20@0: 2178 keys, 1609322 bytes
+2023/07/28-23:51:39.697 512c Compacted 1@0 + 0@1 files => 3738869 bytes
+2023/07/28-23:51:39.699 512c compacted to: files[ 0 2 2 0 0 0 0 ]
+2023/07/28-23:51:39.699 512c Delete type=2 #15
+2023/07/28-23:51:39.700 512c Manual compaction at level-0 from '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 8694 : 1 .. '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 0 : 0; will stop at (end)
+2023/07/28-23:51:39.700 512c Expanding@1 1+2 (2129547+4134133 bytes) to 2+2 (3738869+4134133 bytes)
+2023/07/28-23:51:39.700 512c Manual compaction at level-1 from '!actors!0EO5vP2gCliAxLrF' @ 72057594037927935 : 1 .. '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 0 : 0; will stop at '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 8694 : 1
+2023/07/28-23:51:39.700 512c Compacting 2@1 + 2@2 files
+2023/07/28-23:51:39.745 512c Generated table #21@1: 2278 keys, 2127510 bytes
+2023/07/28-23:51:39.782 512c Generated table #22@1: 2027 keys, 1594373 bytes
+2023/07/28-23:51:39.782 512c Compacted 2@1 + 2@2 files => 3721883 bytes
+2023/07/28-23:51:39.783 512c compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/07/28-23:51:39.784 512c Delete type=2 #8
+2023/07/28-23:51:39.784 512c Delete type=2 #9
+2023/07/28-23:51:39.785 512c Delete type=2 #19
+2023/07/28-23:51:39.785 512c Delete type=2 #20
+2023/07/28-23:51:39.786 512c Manual compaction at level-1 from '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 8694 : 1 .. '!actors.items!zvhw5Qx6gU7e39he.zQB4cIjvZCjdjzgJ' @ 0 : 0; will stop at (end)

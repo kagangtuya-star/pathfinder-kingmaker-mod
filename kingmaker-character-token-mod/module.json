@@ -1,0 +1,43 @@
+{
+  "id": "kingmaker-character-token-mod",
+  "title": "拥王者角色立绘与token包",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "拥王者角色立绘与token包，资源汇总自《Kingmaker - Pawn Box [PZO2027E]》、拥王者CRPG、模组怪物图鉴、前朝网图、男神站、拥王者一代模组等",
+  "authors": [
+    {
+      "name": "星尘",
+      "url": "https://www.goddessfantasy.net/bbs/index.php?topic=141788.0",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "kingmaker-character-token",
+      "label": "拥王者角色立绘与token包",
+      "path": "packs/kingmaker-character-token",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "kingmaker",
+      "label": "拥王者",
+      "path": "packs/kingmaker",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
