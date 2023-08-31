@@ -1,0 +1,38 @@
+{
+  "id": "kingmaker-diy-map-resources",
+  "title": "拥王者自制地图资源",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "world-explorer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "星尘",
+      "url": "https://www.goddessfantasy.net/bbs/index.php?topic=141788.0",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "kingmaker-maps-notes",
+      "label": "拥王者自制地图资源（星尘）",
+      "path": "packs/kingmaker-maps-notes",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
